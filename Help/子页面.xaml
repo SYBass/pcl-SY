@@ -1,4 +1,4 @@
-
+<local:MyHint Text="注：此功能并未完善！" Margin="0,0,0,8" IsWarn="True" />
     <Grid>
         <Grid.ColumnDefinitions>
         <ColumnDefinition Width="1*" />
@@ -41,6 +41,11 @@
                 <TextBlock Margin="0,0,0,10" FontSize="20" Text="视频 ：" HorizontalAlignment="Left" />
                 <local:MyHint IsWarn="False" Margin="0,0,0,10" Text="注意 ：最上面的是最新的" HorizontalAlignment="Left" />
 
+                <local:MyListItem Margin="-5,0,-5,8" Logo="https://www.bilibili.com/favicon.ico?v=1" Title="《新人UP联机 3》都疯啦！！啊啊啊啊！" EventType="打开网页" EventData="https://www.bilibili.com/video/BV15W4y1f7Di/" Type="Clickable" />
+
+                <local:MyListItem Margin="-5,0,-5,8" Logo="https://www.bilibili.com/favicon.ico?v=1" Title="新人UP联机，第二期！终于来啦！" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1mk4y1T7uZ/" Type="Clickable" />
+
+                <local:MyListItem Margin="-5,0,-5,8" Logo="https://www.bilibili.com/favicon.ico?v=1" Title="新人UP联机生存 第1期 《仕洋流浪记》" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1xX4y1p7rn/" Type="Clickable" />
 
                 <local:MyListItem Margin="-5,0,-5,8" Logo="https://www.bilibili.com/favicon.ico?v=1" Title="pcl2的自定义主页！来啦！！！！！！" EventType="打开网页" EventData="https://www.bilibili.com/video/BV11g4y1P7Ui/" Type="Clickable" />
 

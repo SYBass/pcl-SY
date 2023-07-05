@@ -4,8 +4,7 @@
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,10"
                                 Text="成立时间 ：仕洋team成立于2023/3/14" />
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                 <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="0,0,10,0" Height="35" Padding="13,0,13,0" ColorType="Highlight"
-                            Text="启动游戏1.19.2" EventType="启动游戏" EventData="1.19.2" ToolTip="注意：此版本为原版"/>
+
                  <local:MyButton Width="160"  HorizontalAlignment="Center" Margin="8,0,10,0"  Height="35" Padding="13,0,13,0"
                             Text="复制服务器地址" EventType="复制文本" EventData="hp.iuqaq.com:19133" ToolTip="1.20.1 仕洋team官方服务器IP：hp.iuqaq.com:19133"/>
            </StackPanel>
